@@ -20,9 +20,9 @@
 # Ignore configuration files that may contain sensitive information.
 web/sites/*/settings*.php
 web/sites/*/services*.yml
-
+web/sites/default/files
 # Ignore paths that contain user-generated content.
-web/*/files
+web/sites*/files
 web/sites/*/private
 
 # Ignore multi-site test environment.
