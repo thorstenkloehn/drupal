@@ -85,3 +85,18 @@ server {
         log_not_found off;
     }
 }
+
+
+## Projekt auf Produktserver übertragen
+
+Um die Entwicklungsumgebung auf den Produktserver zu übertragen, kannst du `rsync` verwenden. Dabei soll die Datei `composer.json` ausgeschlossen werden:
+
+```bash
+rsync -av --delete \
+    --exclude='composer.json' \
+    --exclude='composer.lock' \
+    --exclude='web/sites/default/files/config_*' \
+    --exclude='web/sites/default/settings.php' \
+    --exclude='web/sites/default/files' \
+    /var/www/drupal/ user@zielserver:/var/www/drupal
+```
