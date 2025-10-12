@@ -92,7 +92,7 @@ server {
 Um die Entwicklungsumgebung auf den Produktserver zu übertragen, kannst du `rsync` verwenden. Dabei soll die Datei `composer.json` ausgeschlossen werden:
 
 ```bash
-rsync -av --delete \
+rsync -av 
     --exclude='composer.json' \
     --exclude='composer.lock' \
     --exclude='web/sites/default/files/config_*' \
