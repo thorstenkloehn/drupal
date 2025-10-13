@@ -26,6 +26,7 @@ web/sites*/files
 web/sites/*/private
 web/sites/default/files/config_*
 web/modules/contrib
+web/themes/contrib
 
 # Ignore multi-site test environment.
 web/sites/simpletest
