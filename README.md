@@ -175,3 +175,4 @@ server {
 ```
 
 **Hinweis:** Passe die Domain (`example.com`) und die SSL-Zertifikat-Pfade entsprechend deiner Umgebung an.
+start
