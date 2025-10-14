@@ -21,7 +21,8 @@
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
-        "drupal/eu_cookie_compliance": "^1.26"
+        "drupal/eu_cookie_compliance": "^1.26",
+        "drush/drush": "^13.6"
     },
     "conflict": {
         "drupal/drupal": "*"
