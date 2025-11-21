@@ -1,0 +1,4 @@
+web
+vendor
+!web/profiles/
+
