@@ -1,5 +1,5 @@
-!web/profiles/
 web
 vendor
 !web/profiles/
+!web/profiles/**
 
