@@ -4,6 +4,7 @@ description: 'Profi installation profile for Drupal.'
 core_version_requirement: ^11
 themes:
   - bootstrap5
+  - claro
 
 
 
