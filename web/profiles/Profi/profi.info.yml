@@ -2,9 +2,10 @@ name: 'Profi'
 type: profile
 description: 'Profi installation profile for Drupal.'
 core_version_requirement: ^11
-dependencies:
-  - drupal:bootstrap5
-  - drupal:seven
+themes:
+  - bootstrap5
+  - seven
+
 
 
   
