@@ -5,6 +5,12 @@ core_version_requirement: ^11
 themes:
   - bootstrap5
   - claro
+install:
+  - system
+  - user
+  - node
+  - block
+  - views
 
 
 
