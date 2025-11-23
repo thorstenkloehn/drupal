@@ -16,7 +16,7 @@ install:
   - text
   - views_ui
   - help
-  dependencies:
+dependencies:
   - drupal:views
   - drupal:toolbar
   - drupal:field
