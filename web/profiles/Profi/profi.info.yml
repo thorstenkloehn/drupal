@@ -24,8 +24,6 @@ dependencies:
   - drupal:text
   - drupal:block
   - drupal:help
-  - drupal:claro
-  - drupal:bootstrap5
 
 
 
