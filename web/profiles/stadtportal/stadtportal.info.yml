@@ -1,6 +1,6 @@
-name: 'Profi'
+name: 'Stadtportal'
 type: profile
-description: 'Profi installation profile for Drupal.'
+description: 'Stadtportal-Installationsprofil für Drupal.'
 core_version_requirement: ^11
 themes:
   - bootstrap5
