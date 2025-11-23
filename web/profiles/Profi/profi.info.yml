@@ -11,6 +11,11 @@ install:
   - node
   - block
   - views
+  - field
+  - filter
+  - text
+  - views_ui
+  - help
 
 
 
