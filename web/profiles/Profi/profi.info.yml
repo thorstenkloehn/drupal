@@ -16,6 +16,17 @@ install:
   - text
   - views_ui
   - help
+  dependencies:
+  - drupal:views
+  - drupal:toolbar
+  - drupal:field
+  - drupal:filter
+  - drupal:text
+  - drupal:block
+  - drupal:help
+  - drupal:claro
+  - drupal:bootstrap5
+
 
 
 
