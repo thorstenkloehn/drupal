@@ -1,0 +1,12 @@
+langcode: de
+status: true
+dependencies:
+  module:
+    - node
+name: Artikel
+type: article
+description: 'Für Nachrichten und Blogbeiträge.'
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
