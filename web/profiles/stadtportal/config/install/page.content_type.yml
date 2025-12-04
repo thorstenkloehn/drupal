@@ -1,0 +1,11 @@
+langcode: de
+status: true
+dependencies: {  }
+id: page
+type: node
+name: Seite
+description: 'Einfacher Seiten-Inhaltstyp'
+help: ''
+new_revision: false
+display_submitted: true
+preview_mode: 1
