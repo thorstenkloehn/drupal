@@ -8,5 +8,5 @@ type: article
 description: 'Für Nachrichten und Blogbeiträge.'
 help: ''
 new_revision: false
-display_submitted: true
+display_submitted: false
 preview_mode: 1
