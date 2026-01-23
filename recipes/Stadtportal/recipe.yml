@@ -1,8 +1,10 @@
 name: Stadtportal
-type: recipe
 description: Rezept für das Stadtportal
-
+type: Site
 install:
   - node
   - pathauto
   - bootstrap5
+config:
+  import:
+    pathauto: "*"
