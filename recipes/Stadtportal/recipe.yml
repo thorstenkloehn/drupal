@@ -5,8 +5,4 @@ description: Rezept für das Stadtportal
 install:
   - node
   - pathauto
-config:
-  import:
-    system:
-      - system.theme.yml
-
+  - bootstrap5
